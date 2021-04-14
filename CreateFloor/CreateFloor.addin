@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command CreateFloor</Text>
+    <Description>Some description for CreateFloor</Description>
+    <Assembly>CreateFloor.dll</Assembly>
+    <FullClassName>CreateFloor.Command</FullClassName>
+    <ClientId>c4f4a25b-06f2-4544-845c-3c9ea12f6248</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CreateFloor</Name>
+    <Assembly>CreateFloor.dll</Assembly>
+    <FullClassName>CreateFloor.App</FullClassName>
+    <ClientId>fb2e9e25-68e4-46f0-88f1-b418a79f3e31</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
